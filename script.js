@@ -38,7 +38,7 @@ function addProductCard(product, indexnum) {
 }
 
 function addProductToServer(product) {
-    fetch('http://localhost:3000/data', {
+    fetch('/api/data', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
